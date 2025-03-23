@@ -1,5 +1,5 @@
 /* src/styles/global.css */
-body {
+/*body {
     margin: 0;
     font-family: 'M PLUS Rounded 1c', sans-serif;
   }
@@ -20,8 +20,8 @@ body {
     height: 100vh; 
     background-image: url('../assets/images/money.png');
     background-size: 100%;
-    background-position: center ; /* Position at the top center */
-    /* background-repeat: no-repeat; */
+    background-position: center ; 
+   
     mix-blend-mode: lighten;
     background-color: black;
     filter: blur(4.7px);
@@ -30,9 +30,10 @@ body {
   }
   
   /* Toolbar */
-  .toolbar {
+ /* .toolbar {
     display: flex;
     color: white;
+   
    
   }
   .logo{
@@ -42,18 +43,16 @@ body {
       }
   
   #itcush{
-   
         width: 117px;
         height: 46px;
-        
         font-size: 32px;
         line-height: 70px;
         color: #F0B90B;
        }
   
   /* Buttons */
-  .actions .btn {
-   margin-left: 800px;
+  /*.actions .btn {
+   margin-left: 450px;
    margin-top: 30px;
     padding: 0.5rem 1rem;
     background: rgba(145, 145, 145, 1);
@@ -65,10 +64,13 @@ body {
     font-weight: bold;
     
   }
+  button:hover {
+    background: rgba(70, 70, 70, 0.7);
+  }
   
 
  /*content */
-h2{
+/*h2{
 text-align: center;
 width: 334px;
 height: 48px;
@@ -116,5 +118,191 @@ color: #FFFFFF;
    justify-content:right;
    margin-bottom: 50px;
    
-  }
+  }*/
+  /* welcomepage.css */
+body {
+  margin: 0;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.welcome-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+  color: white;
+  background: linear-gradient(rgb(1, 1, 5), rgb(3, 4, 16));
   
+}
+
+.welcome-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/money.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+  opacity: 0.5;
+  z-index: 0;
+}
+
+/* Header and Navigation */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px;
+  position: relative;
+  z-index: 2;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 130px;
+  width: 170px;
+  margin-top: 5px;
+}
+
+#itcush {
+  font-size: 42px;
+  font-weight: bold ;
+  font-family:  'Courier New', Courier, monospace;
+  color: #F0B90B;
+  margin: 0;
+}
+
+.main-nav {
+  display: flex;
+  gap: 30px;
+  font-weight: bold;
+ 
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-weight: 500;
+
+}
+
+.dropdown-arrow {
+  font-size: 12px;
+  opacity: 0.8;
+ 
+}
+
+.auth-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 300px;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  text-transform: uppercase;
+}
+
+.login-btn {
+  background-color: #9e9e9e;
+  color: #000;
+}
+
+.signup-btn {
+  background-color: #F0B90B;
+  color: #000;
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+/* Main Content Area */
+.content-area {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+  position: relative;
+  z-index: 1;
+}
+
+.welcome-content {
+  flex: 1;
+}
+
+.welcome-content h2 {
+  font-size: 58px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.welcome-content p {
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+.card-display {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card {
+  width: 300px;
+  position: absolute;
+  transform: rotate(5deg);
+  
+  border-radius: 12px;
+}
+
+.turquoise-card {
+  top: 0px;
+  right: 100px;
+  height: 400px;
+  width: 500px;
+ 
+  z-index: 2;
+}
+
+.purple-card {
+  top: 100px;
+  right: 70px;
+  z-index: 2;
+  height: 450px;
+  width: 600px;
+  transform: rotate(-1deg);
+}
+
+.coin {
+  position: absolute;
+  width: 150px;
+  top:270px;
+  bottom: 0px;
+  right: 80px;
+  z-index: 4;
+  mix-blend-mode: overlay; /* Apply the same blend mode as the background */
+  filter: brightness(0.4) contrast(1.3) saturate(0.4); /* Adjust these values */
+  
+
+}
