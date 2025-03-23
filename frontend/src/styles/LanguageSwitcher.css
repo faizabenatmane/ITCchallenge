@@ -1,0 +1,18 @@
+.language-btn {
+  background: rgba(252, 212, 53, 0.022);
+  color: white;
+
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+  font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .language-btn:hover {
+    
+ 
+  }
+  
