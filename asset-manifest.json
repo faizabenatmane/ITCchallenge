@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ITCchallenge/static/css/main.41dc6eb0.css",
-    "main.js": "/ITCchallenge/static/js/main.4c09e36e.js",
+    "main.js": "/ITCchallenge/static/js/main.c5b73e50.js",
     "static/media/card2.png": "/ITCchallenge/static/media/card2.0edf65e2b40dce9b6021.png",
     "static/media/coin.png": "/ITCchallenge/static/media/coin.b30b2a5ae66fc5b14914.png",
     "static/media/money.png": "/ITCchallenge/static/media/money.69496e9a6bf193f4fbd5.png",
@@ -14,10 +14,10 @@
     "static/media/logo.png": "/ITCchallenge/static/media/logo.b52e9791481ef50f4f01.png",
     "index.html": "/ITCchallenge/index.html",
     "main.41dc6eb0.css.map": "/ITCchallenge/static/css/main.41dc6eb0.css.map",
-    "main.4c09e36e.js.map": "/ITCchallenge/static/js/main.4c09e36e.js.map"
+    "main.c5b73e50.js.map": "/ITCchallenge/static/js/main.c5b73e50.js.map"
   },
   "entrypoints": [
     "static/css/main.41dc6eb0.css",
-    "static/js/main.4c09e36e.js"
+    "static/js/main.c5b73e50.js"
   ]
 }
