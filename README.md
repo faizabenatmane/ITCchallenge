@@ -33,4 +33,4 @@ npm start
 The app will be accessible at http://localhost:3000/.
 
 🌐 Live Demo
-View the live demo
+ [View the live demo](https://faizabenatmane.github.io/ITCchallenge/)
