@@ -2,6 +2,7 @@ ITCash Bank Platform– Frontend
 A React-based frontend for the ITCash Bank platform, built during a 48-hour challenge. The app simulates basic banking features with a simple and clean user interface.
 
 🚀Features
+
 Welcome Page
 
 User Authentication (Login)
@@ -11,6 +12,7 @@ Dashboard
 Card Request Form
 
 📦 Tech Stack
+
 Frontend: React, React Router
 
 Deployment: GitHub Pages
